@@ -41,7 +41,6 @@ def home():
 def predict():
 
 	try:
-
 		#request args
 		Gender = request.args.get('Gender')
 		Married = request.args.get('Married')
